@@ -17,8 +17,11 @@
     <link rel="stylesheet" type="text/css" href="../css/board/board_number.css">
     <link rel="stylesheet" type="text/css" href="../css/board/board_bank.css">
     <link rel="stylesheet" type="text/css" href="../css/board/board_floating.css">
+    <link rel="stylesheet" type="text/css" href="../css/board/board_tab.css">
+    <link rel="stylesheet" type="text/css" href="../css/board/board_checkbox.css">
     <link rel="stylesheet" type="text/css" href="../css/grids/inputs-grid.css">
     <link rel="stylesheet" type="text/css" href="../css/grids/buttons-grid.css">
+    <link rel="stylesheet" type="text/css" href="../css/grids/checkmark-grid.css">
     <link rel="stylesheet" type="text/css" href="../css/board/buttons/board_button-bordless.css">
     <link rel="stylesheet" type="text/css" href="../css/board/buttons/board_button-clear.css">
     <link rel="stylesheet" type="text/css" href="../css/board/buttons/board_button.css">
@@ -58,16 +61,16 @@
             <h2 class="medium-label">Tab</h2>
             <div class="board tab-grid">
                 <div class="board_tab">
-                    <button class="board_active">Active</button>
-                    <button class="board_disabled" disabled>Disabled</button>
+                    <button class="board_button">Active</button>
+                    <button class="board_button" disabled>Disabled</button>
                 </div>
             </div>
 
             <h2 class="medium-label">Checkmark</h2>
             <div class="board checkmark-grid">
-                <input type="checkbox" class="board_checkbox" checked><label for="">Checked</label>
-                <input type="checkbox" class="board_checkbox"><label for="">Unchecked</label>
-                <input type="checkbox" class="board_checkbox"><label for="">Indeterminate</label>
+                <div class="board_checkbody"><input type="checkbox" class="board_checkbox" checked><div class="board_checkblock"></div></div><label for="">Checked</label>
+                <div class="board_checkbody"><input type="checkbox" class="board_checkbox"><div class="board_checkblock"></div></div><label for="">Unchecked</label>
+                <div class="board_checkbody"><input type="checkbox" class="board_checkbox"><div class="board_checkblock"></div></div><label for="">Indeterminate</label>
             </div>
 
             <h2 class="medium-label">Radio Button</h2>

@@ -1,0 +1,64 @@
+.board_checkbox ~ label
+{
+    margin: 10px;
+    font-size: 14px;
+}
+.board_checkbox
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 0px;
+    width: 0px;
+    cursor: pointer;
+}
+
+.board_checkblock
+{
+    margin:auto;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #A0A8B5;
+    border-radius: 5px;
+}
+.board_checkbody:hover .board_checkbox ~ .board_checkblock
+{
+    background-color: #e7e7e7;
+}
+
+.board_checkbody .board_checkbox:checked ~ .board_checkblock
+{
+    background-color: #0C8CE9;
+    border-color: #0C8CE9;
+    background-image: url(../../resource/checked.png);
+    background-size: 17px 17px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.board_checkbody .board_checkbox:indeterminate ~ .board_checkblock
+{
+    background-color: #0C8CE9;
+    border: #0C8CE9;
+    background-image: url(../../resource/unchecked.png);
+    background-size: 17px 17px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.board_checkblock::after
+{
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.board_checkbody .board_checkbox:indeterminate ~ .board_checkblock::after
+{
+    display: block;
+}
+
+
+.board_checkbody
+{
+    margin: 0px 10px 15px 0px;
+}
