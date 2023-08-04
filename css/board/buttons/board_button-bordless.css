@@ -1,0 +1,30 @@
+.board_button-bordless
+{
+    width: 166px;
+    height: 56px;
+    margin: 0px 40px 40px 0px;
+    color: #0C8CE9;
+    background-color: #EEF7FF;
+    border: none;
+    border-radius: 8px;
+    transition: all 0.1s ease-in-out;
+    
+    font-family: 'Questrial', sans-serif;
+    font-size: 16px;
+}
+.board_button-bordless:hover
+{
+    background-color: #d2eaff;
+    transition: all 0.1s ease-in-out;
+}
+.board_button-bordless:active
+{
+    background-color: #c8e0f5;
+    transition: all 0.1s ease-in-out;
+}
+.board_button-bordless:disabled
+{
+    color: #A3D4FF;
+    transition: all 0.1s ease-in-out;
+    pointer-events: none;
+}
