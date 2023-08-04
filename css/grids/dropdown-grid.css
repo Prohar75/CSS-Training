@@ -1,14 +1,5 @@
 .dropdown-grid
 {
     display: grid;
-    grid-template-areas: 'select-1 select-2';
-}
-
-.dropdown-board-place
-{
-    grid-area: select-1;
-}
-.dropdown-board-a-place
-{
-    grid-area: select-2;    
+    grid-template-areas: 'select-1 select-2 none none none';
 }

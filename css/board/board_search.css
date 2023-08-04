@@ -1,0 +1,19 @@
+.board_search
+{
+    width: 367px;
+    height: 56px;
+    border-radius: 8px;
+    border: 1px solid #DDE1EB;
+    padding: 0px 0px 0px 15px;
+    font-size: 16px;
+    font-family: 'Questrial', sans-serif;
+    transition: box-shadow 0.1s ease-in-out;
+    margin-bottom: 35px;
+}
+.board_search:focus
+{
+    box-shadow: #0C8CE9 0px 0px 5px;
+    border: 1px solid #0C8CE9;
+    outline: none;
+    transition: box-shadow 0.1s ease-in-out;
+}

@@ -1,7 +1,27 @@
 <!DOCTYPE html>
 <head>
     <title>Actions</title>
+    <link rel="stylesheet" type="text/css" href="../css/containers/container.css">
+    <link rel="stylesheet" type="text/css" href="../css/containers/wrapper.css">
+    <link rel="stylesheet" type="text/css" href="../css/panel.css">
+    <link rel="stylesheet" type="text/css" href="../css/medium-label.css">
+    <link rel="stylesheet" type="text/css" href="../css/board/board.css">
+    <link rel="stylesheet" type="text/css" href="../css/board/board_select.css">
+    <link rel="stylesheet" type="text/css" href="../css/board/board_select-advanced.css">
+    <link rel="stylesheet" type="text/css" href="../css/board/board_input.css">
+    <link rel="stylesheet" type="text/css" href="../css/board/board_wrong.css">
+    <link rel="stylesheet" type="text/css" href="../css/board/board_right.css">
+    <link rel="stylesheet" type="text/css" href="../css/board/board_search.css">
+    <link rel="stylesheet" type="text/css" href="../css/board/board-inputs_select.css">
+    <link rel="stylesheet" type="text/css" href="../css/board/board_pressable.css">
+    <link rel="stylesheet" type="text/css" href="../css/board/board_number.css">
+    <link rel="stylesheet" type="text/css" href="../css/board/board_bank.css">
+    <link rel="stylesheet" type="text/css" href="../css/board/board_floating.css">
+    <link rel="stylesheet" type="text/css" href="../css/grids/inputs-grid.css">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
 
 
 
@@ -19,12 +39,12 @@
             </div>
             <h2 class="medium-label">Input Fields</h2>
             <div class="board inputs-grid">
-                <input type="text" placeholder="Input Field" class="board_text">
-                <input type="password" placeholder="Password" class="board_pass">
-                <input type="text" placeholder="Input Field" class="board_right">
-                <input type="text" placeholder="Input Field" class="board_wrong">
+                <input type="text" placeholder="Input Field" class="board_input">
+                <input type="password" placeholder="Password" class="board_input">
+                <input type="text" placeholder="Input Field" class="board_input board_right">
+                <input type="text" placeholder="Input Field" class="board_input board_wrong">
                 <input type="search" placeholder="Search" class="board_search">
-                <select name="dropdown-panel_select-advanced" id="dropdown-panel_select-advanced" class="dropdown-panel_select-advanced">
+                <select name="board_select" id="board_select" class="board_select">
                     <option value="" disabled selected>Find by tag</option>
                     <option value="Tag-1">Tag #1</option>
                     <option value="Tag-2">Tag #2</option>
@@ -32,35 +52,35 @@
                     <option value="Tag-4">Tag #4</option>
                     <option value="Tag-5">Tag #5</option>
                 </select>
-                <div class="board_pressable">
-                    <input type="text" placeholder="Input Field" class="board_input board_board_disabled" disabled>
+                <div class="board_pressable board_pressable-v1">
+                    <input type="text" placeholder="Input Field" class="board_input" disabled>
                     <button class="board_button" disabled>Button</button>
                 </div>
-                <div class="board_pressable">
+                <div class="board_pressable board_pressable-v2">
                     <input type="text" placeholder="Input Field" class="board_input">
                     <button class="board_button">Button</button>
                 </div>
                 <div class="board_number">
-                    <select name="board_select" id="board_select">
+                    <select name="board_select" class="board_select">
                         <option value="" disabled selected>+0</option>
                     </select>
-                    <input type="text" placeholder="Input Field" class="board_input">
+                    <input type="number" placeholder="Phone Number" class="board_input">
                 </div>
                 <div class="board_bank">
-                    <input type="text" placeholder="Input Field" class="board_input">
-                    <select name="board_select" id="board_select">
+                    <input type="number" placeholder="0.00" class="board_input">
+                    <select name="board_select" class="board_select">
                         <option value="" disabled selected>USD</option>
                     </select>
                 </div>
-                <div class="board_floating">
-                    <label for="board_input-advanced" class="board_label">Floating Label</label>
-                    <input type="text" class="board_input-advanced">
-                    <label for="board_input-advanced" class="board_non-required">This field is required</label> 
+                <div class="board_floating board_floating-v1">
+                    <input type="text" class="board_input" placeholder="">
+                    <label for="" class="board_label">Floating Label</label>
+                    <label for="" class="board_non-required">This field is required</label> 
                 </div>
-                <div class="board_floating">
-                    <label for="board_input-advanced" class="board_label">Floating Label</label>
-                    <input type="text" class="board_input-advanced">
-                    <label for="board_input-advanced" class="board_required">This field is required</label> 
+                <div class="board_floating board_floating-v2">
+                    <input type="text" class="board_input" placeholder="">
+                    <label for="" class="board_label">Floating Label</label>
+                    <label for="" class="board_required">This field is required</label> 
                 </div>
             </div>
         </div>

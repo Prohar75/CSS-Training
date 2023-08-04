@@ -1,0 +1,11 @@
+.inputs-grid
+{
+    display: grid;
+    grid-template-areas: 
+    'input-1 password'
+    'input-2 input-3'
+    'search select'
+    'input-b-dis input-b'
+    'number money'
+    'required-1 required-2';
+}

@@ -1,0 +1,61 @@
+.board_number
+{
+    display:flex;
+    align-items: center;
+    grid-area: number;
+    height: 56px;
+    margin-bottom: 40px;
+}
+.board_number > .board_select
+{
+    appearance: none; /* Disable the default arrow */
+    -webkit-appearance: none; /* For webkit-based browsers like Chrome and Safari */
+    -moz-appearance: none; /* For Firefox */
+    width: 66px;
+    height: 58px;
+    padding: 10px 10px 10px 20px;
+    border: 1px solid #DDE1EB;
+    background-color: white;
+    background-image: none; 
+    background-size: 30px 20px;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-color: #F0F1F5;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    margin: 0px;
+    z-index: 1;
+    transition: 0.1s ease-in-out;
+}
+
+.board_number > .board_select:hover
+{
+    background-color: #ffffff;
+    transition: 0.1s ease-in-out;
+}
+.board_number > .board_select:focus
+{
+    box-shadow: none;
+}
+.board_number > .board_input
+{
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    width: 282px;
+    margin: 0px;
+    border-left: 0px;
+    z-index: 0;
+}
+
+.bord_number > .board_input::placeholder
+{
+    color: #B2BAC6;
+}
+.bord_number > .board_input::-ms-placeholder
+{
+    color: #B2BAC6;
+}
+.bord_number > .board_input:-ms-placeholder
+{
+    color: #B2BAC6;
+}
