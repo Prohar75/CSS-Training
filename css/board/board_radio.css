@@ -1,0 +1,22 @@
+.board_radio:checked
+{
+    margin-right: 10px;
+    margin-bottom: 20px;
+    appearance: none;
+    border: 5px solid #0C8CE9;
+    border-radius: 20px;
+    width: 20px;
+    height: 20px;
+    transition: all 0.1s ease-in-out;
+}
+.board_radio
+{
+    margin-right: 10px;
+    margin-bottom: 20px;
+    appearance: none;
+    border: 2px solid #A0A8B5;
+    border-radius: 20px;
+    width: 20px;
+    height: 20px;
+    transition: all 0.1s ease-in-out;
+}

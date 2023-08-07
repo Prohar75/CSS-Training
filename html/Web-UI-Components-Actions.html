@@ -19,9 +19,14 @@
     <link rel="stylesheet" type="text/css" href="../css/board/board_floating.css">
     <link rel="stylesheet" type="text/css" href="../css/board/board_tab.css">
     <link rel="stylesheet" type="text/css" href="../css/board/board_checkbox.css">
+    <link rel="stylesheet" type="text/css" href="../css/board/board_radio.css">
+    <link rel="stylesheet" type="text/css" href="../css/board/board_slider.css">
+    <link rel="stylesheet" type="text/css" href="../css/board/board_switch.css">
+    <link rel="stylesheet" type="text/css" href="../css/board/buttons/board_page-buttons.css">
     <link rel="stylesheet" type="text/css" href="../css/grids/inputs-grid.css">
     <link rel="stylesheet" type="text/css" href="../css/grids/buttons-grid.css">
     <link rel="stylesheet" type="text/css" href="../css/grids/checkmark-grid.css">
+    <link rel="stylesheet" type="text/css" href="../css/grids/radio-grid.css">
     <link rel="stylesheet" type="text/css" href="../css/board/buttons/board_button-bordless.css">
     <link rel="stylesheet" type="text/css" href="../css/board/buttons/board_button-clear.css">
     <link rel="stylesheet" type="text/css" href="../css/board/buttons/board_button.css">
@@ -75,8 +80,8 @@
 
             <h2 class="medium-label">Radio Button</h2>
             <div class="board radio-grid">
-                <input type="radio" class="board_radio"><label for="">Checked</label>
-                <input type="radio" class="board_radio"><label for="">Unchecked</label>
+                <input type="radio" class="board_radio" name="rad"><label for="">Checked</label>
+                <input type="radio" class="board_radio" name="rad"><label for="">Unchecked</label>
             </div>
 
             <h2 class="medium-label">Toggle Switch</h2>
@@ -85,6 +90,11 @@
                     <input type="checkbox" class="board_nonvis-checkbox" checked>
                     <span class="board_switcher"></span>
                 </div>
+                <div class="board_toggle">
+                    <input type="checkbox" class="board_nonvis-checkbox">
+                    <span class="board_switcher"></span>
+                </div>
+                
             </div>
 
             <h2 class="medium-label">Slider</h2>
@@ -95,12 +105,12 @@
             <h2 class="medium-label">Pagination</h2>
             <div class="board pagination-grid">
                 <button class="board_previous">&#60; Prev</button>
-                <button class="board_page-b">1</button>
+                <button class="board_page-b-this">1</button>
                 <button class="board_page-b">2</button>
                 <button class="board_page-b">...</button>
                 <button class="board_page-b">9</button>
                 <button class="board_page-b">10</button>
-                <button class="board_next">&#62; Next</button>
+                <button class="board_next">Next &#62;</button>
             </div>
         </div>
     </div>
