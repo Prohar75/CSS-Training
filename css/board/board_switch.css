@@ -42,6 +42,7 @@
     border-radius: 50px;
   }
   
+  
   .board_nonvis-checkbox:focus + .board_switcher {
     box-shadow: 0 0 1px #2196F3;
   }
@@ -60,3 +61,4 @@
   .board_switcher.round:before {
     border-radius: 50%;
   }
+  
