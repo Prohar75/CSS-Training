@@ -1,0 +1,35 @@
+.board_previous, .board_next
+{
+    font-family: 'Questrial', sans-serif;
+    font-size: 14px;
+    background-color: transparent;
+    border-radius: 5px;
+    height: 38px;
+    padding: 0px 7px;
+    border: 0px;
+    color: #A0A8B5;
+}
+.board_page-b
+{
+    font-family: 'Questrial', sans-serif;
+    font-size: 14px;
+    background-color: #F0F1F5;
+    color: #60656E;
+    border-radius: 5px;
+    height: 38px;
+    width: 38px;
+    padding: 0px 7px;
+    border: 0px;
+}
+.board_page-b-this
+{
+    font-family: 'Questrial', sans-serif;
+    font-size: 14px;
+    background-color: #F1F9FF;
+    color: #0C8CE9;
+    border: 1px solid #0C8CE9;
+    border-radius: 5px;
+    height: 38px;
+    width: 38px;
+    padding: 0px 7px;
+}

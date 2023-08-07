@@ -1,0 +1,32 @@
+.board_select
+{
+    appearance: none; /* Disable the default arrow */
+    -webkit-appearance: none; /* For webkit-based browsers like Chrome and Safari */
+    -moz-appearance: none; /* For Firefox */
+    width: 272px;
+    height: 56px;
+    border-radius: 8px;
+    border: 1px solid #DDE1EB;
+    padding: 15px;
+    font-size: 16px;
+    font-family: 'Questrial', sans-serif;
+    transition: box-shadow 0.1s ease-in-out;
+    background-color: white;
+    background-image: url('../../resource/downarrow.png'); 
+    background-size: 30px 20px;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-position-x: 230px;
+}
+.board_select:focus
+{
+    box-shadow: #0C8CE9 0px 0px 5px;
+    border: 1px solid #0C8CE9;
+    outline: none;
+    transition: box-shadow 0.1s ease-in-out;
+}
+.inputs-grid > .board_select
+{
+    width: 367px;
+    background-position-x: 320px;
+}

@@ -1,0 +1,30 @@
+.board_button
+{
+    width: 166px;
+    height: 56px;
+    margin: 0px 40px 40px 0px;
+    color: white;
+    background-color: #0C8CE9;
+    border: none;
+    border-radius: 8px;
+    transition: all 0.1s ease-in-out;
+
+    font-family: 'Questrial', sans-serif;
+    font-size: 16px;
+}
+.board_button:hover
+{
+    background-color: #0f9bff;
+    transition: all 0.1s ease-in-out;
+}
+.board_button:active
+{
+    background-color: #0b86df;
+    transition: all 0.1s ease-in-out;
+}
+.board_button:disabled
+{
+    background-color: #A3D4FF;
+    transition: all 0.1s ease-in-out;
+    pointer-events: none;
+}

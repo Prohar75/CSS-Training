@@ -1,0 +1,33 @@
+.board_button-clear
+{
+    width: 165px;
+    height: 55px;
+    margin: 0px 40px 40px 0px;
+    color: #0C8CE9;
+    border:1px solid #0C8CE9;
+    background-color: transparent;
+    border-radius: 8px;
+    transition: all 0.1s ease-in-out;
+    font-family: 'Questrial', sans-serif;
+    font-size: 16px;
+}
+.board_button-clear:hover
+{
+    color: #FFFFFF;
+    border-color: #0f9bff;
+    background-color: #7bc8ff;
+    transition: all 0.1s ease-in-out;
+}
+.board_button-clear:active
+{
+    color: #0b86df;
+    border-color: #0b86df;
+    transition: all 0.1s ease-in-out;
+}
+.board_button-clear:disabled
+{
+    color: #A3D4FF;
+    border-color: #A3D4FF;
+    pointer-events: none;
+    transition: all 0.1s ease-in-out;
+}

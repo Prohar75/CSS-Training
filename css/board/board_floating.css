@@ -1,0 +1,83 @@
+.board_floating
+{
+    position: relative;
+    height: 100px;
+}
+
+.board_floating > .board_input:placeholder-shown + .board_label
+{
+    position: absolute;
+    transform: translateY(20px);
+    margin-left: 16px;
+    transition: all 0.1s ease-in-out;
+    color: #858585;
+    font-size: 16px;
+}
+
+.board_label
+{
+    position: absolute;
+    margin-left: 16px;
+    transform: translateY(5px);
+    color: #B2BAC6;
+    font-size: 14px;
+}
+
+
+.board_floating > .board_input:focus + .board_label
+{
+    transform: translateY(5px);
+    color: #B2BAC6;
+    font-size: 14px;
+    transition: all 0.1s ease-in-out;
+}
+.board_floating > .board_input
+{
+    position: absolute;
+    z-index: 0;
+}
+
+.board_floating > .board_non-required
+{
+    display: none;
+}
+
+.board_floating > .board_input:placeholder-shown ~ .board_required
+{
+    position: absolute;
+    transform: translateY(63px);
+    margin-left: 10px;
+    font-size: 16px;
+    color: #0C8CE9;
+    transition: all 0.1s ease-in-out;
+}
+
+.board_floating > .board_input:focus ~ .board_required
+{
+    position: absolute;
+    transform: translateY(43px);
+    transition: all 0.1s ease-in-out;
+    margin-left: 10px;
+    font-size: 16px;
+    color: #0C8CE9;
+}
+
+.board_required
+{
+    position: absolute;
+    transform: translateY(40px);
+    margin-left: 10px;
+    font-size: 16px;
+    color: #0C8CE9;
+    transition: all 0.1s ease-in-out;
+    z-index: -1;
+}
+
+.board_floating-v1
+{
+    grid-area: required-1;
+}
+.board_floating-v2
+{
+    grid-area: required-2;
+}

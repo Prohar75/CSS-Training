@@ -1,0 +1,30 @@
+.board_button-colorblind
+{
+    width: 165px;
+    height: 55px;
+    margin: 0px 40px 40px 0px;
+    color: black;
+    border:1px solid #DDE1EB;
+    background-color: transparent;
+    border-radius: 8px;
+    transition: all 0.1s ease-in-out;
+    
+    font-family: 'Questrial', sans-serif;
+    font-size: 16px;
+}
+.board_button-colorblind:hover
+{
+    background-color: #f5f5f5;
+    transition: all 0.1s ease-in-out;
+}
+.board_button-colorblind:active
+{
+    background-color: #dadada;
+    transition: all 0.1s ease-in-out;
+}
+.board_button-colorblind:disabled
+{
+    color: #A0A8B5;
+    transition: all 0.1s ease-in-out;
+    pointer-events: none;
+}

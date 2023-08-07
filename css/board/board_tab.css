@@ -1,0 +1,38 @@
+.board_tab
+{
+    display: flex;
+}
+
+.board_tab > .board_button
+{
+    width: 145px;
+    height: 55px;
+    border: 1px solid #DDE1EB;
+    background-color: #FFFFFF;
+    color: #000000;
+    font-size: 16px;
+    border-radius: 8px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    margin: 0px;
+}
+
+.board_tab > .board_button:hover
+{
+    color: #ffffff;
+}
+
+.board_tab > .board_button:disabled
+{
+    width: 145px;
+    height: 55px;
+    border: 1px solid #DDE1EB;
+    background-color: #FAFAFA;
+    color: #B2BAC6;
+    font-size: 16px;
+    border-radius: 8px;
+    border-left: 0px;
+    margin: 0px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}

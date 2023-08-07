@@ -1,0 +1,63 @@
+.board_pressable
+{
+    width: 366px;
+    height: 58px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.board_pressable > .board_input
+{
+    width: 245px;
+    margin: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-right: 0px;
+}
+.board_pressable > .board_input:disabled
+{
+    background-color: #ffffff;
+}
+.board_pressable > .board_button
+{
+    width: 104px;
+    height: 58px;
+    margin: 0px 0px 1px 0px;
+    border-radius: 8px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    font-size: 16px;
+    font-family: 'Questrial', sans-serif;
+    background-color: #0C8CE9;
+    color:#ffffff;
+    border: 1px solid #0C8CE9;
+    transition: 0.1s ease-in-out;
+}
+
+.board_pressable > .board_button:hover
+{
+    transition: 0.1s ease-in-out;
+    background-color: #0e9aff;
+}
+
+.board_pressable > .board_button:active
+{
+    transition: 0.1s ease-in-out;
+    background-color: #087fd4;
+}
+
+.board_pressable > .board_button:disabled
+{
+    background-color: #F0F1F5;
+    border: 1px solid #DDE1EB;
+    color: black;
+}
+
+.board_pressable-v1
+{
+    grid-area: input-b-dis;
+}
+.board_pressable-v2
+{
+    grid-area: input-b;
+}

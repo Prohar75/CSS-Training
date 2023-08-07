@@ -1,0 +1,7 @@
+.board_right
+{
+    box-shadow: #1EAE69 0px 0px 5px;
+    border: 1px solid #1EAE69;
+    outline: none;
+    transition: box-shadow 0.1s ease-in-out;
+}
